@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 128" role="img" aria-labelledby="title">
+  <title id="title">KLCR</title>
+  <g fill="none" stroke="#435fbb" stroke-linecap="round">
+    <path d="M36 27C95 23 226 24 284 27" stroke-width="10"/>
+    <path d="M42 101C107 104 216 98 279 101" stroke-width="10"/>
+  </g>
+  <text
+    x="160"
+    y="83"
+    fill="#435fbb"
+    font-family="Arial Black, Impact, sans-serif"
+    font-size="74"
+    font-weight="900"
+    text-anchor="middle"
+    letter-spacing="-4"
+  >KLCR</text>
+</svg>
