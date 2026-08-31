@@ -15,7 +15,7 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-const metadataBase = new URL("https://klcrcoffee.id");
+const metadataBase = new URL(siteConfig.url);
 
 export const metadata: Metadata = {
   metadataBase,
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     images: [
       {
-        url: "https://klcrcoffee.id/images/gallery/promo.jpg",
+        url: "/images/gallery/promo.jpg",
         width: 1200,
         height: 630,
         alt: siteConfig.name,
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     title: `${siteConfig.name} — ${siteConfig.tagline}`,
     description: siteConfig.description,
     images: [
-      "https://klcrcoffee.id/images/gallery/promo.jpg",
+      "/images/gallery/promo.jpg",
     ],
   },
   robots: {
@@ -70,7 +70,7 @@ function LocalBusinessJsonLd() {
     name: siteConfig.name,
     description: siteConfig.description,
     url: metadataBase.toString(),
-    image: "https://klcrcoffee.id/images/gallery/promo.jpg",
+    image: "/images/gallery/promo.jpg",
     telephone: siteConfig.phone,
     email: siteConfig.email,
     priceRange: "$$",

@@ -1,5 +1,6 @@
 export const siteConfig = {
   name: "KLCR Coffee",
+  url: "https://klcr-coffee.vercel.app",
   tagline: "Setiap cangkir bercerita",
   description:
     "Setiap cangkir kopi adalah media bercerita tentang tempat asalnya, orang yang menanamnya, dan nilai yang menyertainya",
